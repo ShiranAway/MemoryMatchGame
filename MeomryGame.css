@@ -1,0 +1,149 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* height: 100vh; */
+    margin: 0;
+    padding: 100px;
+    background-color: #f6b9d4;
+    
+}
+#play-button{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   left:640px;
+   top: 20px;
+
+}
+
+h3{
+    position: relative;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h5{
+    position: relative;
+    left:200px;
+    bottom: 10px;
+   
+   
+}
+
+span{
+    position: relative;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#selection-screen, #game-screen {
+    text-align: center;
+}
+
+.photo-set {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    /* border: 2px solid #333;
+    border-radius: 50px; */
+    font-size: 20px;
+
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+
+}
+.explain{
+    border: black solid 2px;
+    border-radius: 10px;
+
+    position: relative;
+    
+   top: 150px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#game-board {
+    display: grid;
+    height: 200px;
+    width: 200px;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+    position: relative;
+    left: 100px;
+    
+    
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+   
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    border: #ff7474 solid 1px ;
+    border-radius: 15px;
+}
+
+.card.flip img {
+    display: block;
+}
+
+.card.flip {
+    background-color: #ccc;
+}
+
+.hidden{
+    display: none;
+}
+
+footer {
+    
+    color: rgb(229, 166, 166);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    top:150px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+ #explanation {
+  display: none;
+ }
